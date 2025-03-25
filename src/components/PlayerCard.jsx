@@ -16,6 +16,7 @@ function PlayerCard({ player }) {
           faType="fa-heart"
           barName=" : pv "
           bgType="bg-danger"
+          
         />
         <ProgressBar
           pv={player.mana}
